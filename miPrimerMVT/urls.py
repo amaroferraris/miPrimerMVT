@@ -19,5 +19,5 @@ from miPrimerMVT.views import miFamilia
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('miFamilia/', miFamilia),
+    path('', miFamilia),
 ]
